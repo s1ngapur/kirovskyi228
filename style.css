@@ -11,11 +11,7 @@ body {
   background-position: top center;
 }
 
-.container {
-  max-width: 928px;
-  margin: 0 auto;
-  padding: 0 16px;
-}
+
 
 .page-header {
   margin: 0 0 160px;
@@ -25,7 +21,7 @@ body {
 .page-header .container,
 .page-footer .container {
   max-width: 1408px;
-  text-align: right;
+  text-align: center;
 }
 
 .page-header a {
@@ -71,6 +67,7 @@ body {
 
 .intro {
   margin: 0 0 120px;
+  text-align: center;
 }
 
 .subheading {
@@ -83,6 +80,13 @@ body {
 }
 
 .user-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 65%;
+}
+
+.user-gif{
   margin: 0 0 23px;
   margin-left: 650px;
   text-align: center;
@@ -95,6 +99,7 @@ body {
   font-size: 28px;
   line-height: 40px;
   font-weight: 500;
+  text-align: center;
 }
 
 .intro p {
@@ -139,16 +144,19 @@ body {
 
 .portfolio {
   margin: 0 0 120px;
+  text-align: center;
 }
 
 .projects {
   margin: 0;
   padding: 0;
   list-style: none;
+  text-align: center;
 }
 
 .projects li {
   margin: 0 0 80px;
+  text-align: center;
 }
 
 .project-image {
@@ -158,15 +166,16 @@ body {
 
 .projects p {
   margin: 0 0 24px;
+  text-align: center;
 }
 
 .button {
-  padding: 6px 20px;
+  padding: 12px 20px;
   display: inline-block;
   vertical-align: baseline;
   text-decoration: none;
   text-transform: uppercase;
-  border-radius: 4px;
+  border-radius: 10px;
   background-color: #288be6;
   color: #ffffff;
 }
@@ -193,4 +202,11 @@ body {
 .footer-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-footer.svg");
+}
+
+.container {
+  max-width: 928px;
+  margin: 0 auto;
+  padding: 0 16px;
+  text-align: center;
 }
